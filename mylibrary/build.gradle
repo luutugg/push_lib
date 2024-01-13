@@ -14,7 +14,7 @@ publishing {
         maven(MavenPublication) {
             groupId "com.vegeta"
             artifactId "my-lib"
-            version "1.0.0"
+            version "1.0.1"
             artifact sourceJar
             artifact "$buildDir/outputs/aar/mylibrary-release.aar"
 

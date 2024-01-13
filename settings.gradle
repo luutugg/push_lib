@@ -10,7 +10,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
+        maven {
+            url 'https://jitpack.io'
+            credentials {
+                username = System.getenv('luutugg')
+                password = System.getenv('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')
+            }
+        }
     }
 }
 rootProject.name = "DemoPush"
