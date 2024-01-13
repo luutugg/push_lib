@@ -14,7 +14,7 @@ dependencyResolutionManagement {
             url 'https://jitpack.io'
             credentials {
                 username = System.getenv('luutugg')
-                password = System.getenv('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')
+                password = System.getenv('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')
             }
         }
     }
